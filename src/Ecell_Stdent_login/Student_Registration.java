@@ -205,7 +205,7 @@ public class Student_Registration extends javax.swing.JFrame {
             }
         });
 
-        jLabelRegister.setFont(new java.awt.Font("Microsoft New Tai Lue", 0, 14)); // NOI18N
+        jLabelRegister.setFont(new java.awt.Font("Microsoft New Tai Lue", 1, 14)); // NOI18N
         jLabelRegister.setForeground(new java.awt.Color(255, 255, 255));
         jLabelRegister.setText("click here to Login");
         jLabelRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -435,11 +435,11 @@ public class Student_Registration extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabelRegisterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelRegisterMouseClicked
-        Admin_LoginForm al = new Admin_LoginForm();
-        al.setVisible(true);
-        al.pack();
-        al.setLocationRelativeTo(null);
-        al.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Student_Login sl = new Student_Login();
+        sl.setVisible(true);
+        sl.pack();
+        sl.setLocationRelativeTo(null);
+        sl.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.dispose();
     }//GEN-LAST:event_jLabelRegisterMouseClicked
 

@@ -106,7 +106,7 @@ public class Admin_Register extends javax.swing.JFrame {
             }
         });
 
-        jLabelRegister.setFont(new java.awt.Font("Microsoft New Tai Lue", 0, 14)); // NOI18N
+        jLabelRegister.setFont(new java.awt.Font("Microsoft New Tai Lue", 1, 14)); // NOI18N
         jLabelRegister.setForeground(new java.awt.Color(255, 255, 255));
         jLabelRegister.setText("click here to Login");
         jLabelRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
